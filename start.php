@@ -3,7 +3,7 @@
 elgg_register_event_handler('init', 'system', 'customsize_groupimage_init');
 
 function customsize_groupimage_init() {
-	elgg_register_plugin_hook_handler('entity:icon:url', 'group', 'customsize_groupimage_hook', 900);
+	elgg_register_plugin_hook_handler('entity:icon:url', 'group', 'customsize_groupimage_hook', 899);
 
 	// Unregister default Elgg core groupicon handler
 	elgg_unregister_page_handler('groupicon');

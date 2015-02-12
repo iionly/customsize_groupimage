@@ -1,9 +1,9 @@
 Customsize Groupimage for Elgg 1.9
-Latest Version: 1.9.0
-Released: 2014-10-09
+Latest Version: 1.9.1
+Released: 2015-02-12
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
-Copyright: (c) iionly 2014
+Copyright: (c) iionly 2014-2015
 
 
 This plugin overrides the display of the master or large sized group profile images by displaying the group profile image in the original size of the uploaded image for these sizes.
@@ -23,6 +23,9 @@ Installation:
 
 
 Changelog:
+
+1.9.1
+- Changed priority used for customsize_groupimage_hook plugin hook for the Customsize Groupimage plugin being compatible with the Identicon plugin.
 
 1.9.0
 - Version 1.8.0 updated for Elgg 1.9.
