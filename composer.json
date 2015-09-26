@@ -1,0 +1,24 @@
+{
+    "name": "iionly/customsize_groupimage",
+    "description": "isplays the group profile image in the size of the original uploaded image in place of the large or master resized images (e.g. on group profile pages).",
+    "type": "elgg-plugin",
+    "keywords": [
+        "elgg",
+        "plugin"
+    ],
+    "homepage": "https://github.com/iionly/customsize_groupimage",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "iionly",
+            "homepage": "https://github.com/iionly",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+            "issues": "https://github.com/iionly/customsize_groupimage/issues"
+    },
+    "require": {
+        "composer/installers": ">=1.0.8"
+    }
+}

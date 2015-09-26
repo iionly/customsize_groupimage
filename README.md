@@ -1,8 +1,8 @@
-Customsize Groupimage for Elgg 1.9 - 1.11
-=========================================
+Customsize Groupimage for Elgg 1.9 - 1.12 and Elgg 2.X
+======================================================
 
-Latest Version: 1.9.2  
-Released: 2015-06-20  
+Latest Version: 1.9.3  
+Released: 2015-09-26  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
 Copyright: (c) iionly 2014-2015
@@ -20,29 +20,9 @@ If you don't want the "large" image to be replaced but only want the original im
 Depending on your theme (if using any but the default Elgg theme), you might have to make some additional adjustments in the theme's CSS for the group profile pages to look "nice" with a larger version of the group image used.
 
 
-
 Installation
 ------------
 
-1. Copy the customsize_groupimage plugin folder into the mod folder on your server,
-2. Enable the plugin in the admin section of your site.
-
-
-Changelog
----------
-
-1.9.2
-
-- No longer require engine/start.php in icon.php.
-
-1.9.1
-
-- Changed priority used for customsize_groupimage_hook plugin hook for the Customsize Groupimage plugin being compatible with the Identicon plugin.
-
-1.9.0
-
-- Version 1.8.0 updated for Elgg 1.9.
-
-1.8.0
-
-- Intial release for Elgg 1.8.
+1. If you have a previous version of the Customsize Groupimage plugin installed, first remove the old customsize_groupimage plugin folder from your mod directory before copying/extracting the new version to your server,
+2. Copy the customsize_groupimage plugin folder into the mod folder on your server,
+3. Enable the plugin in the admin section of your site.

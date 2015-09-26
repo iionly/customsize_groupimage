@@ -54,9 +54,11 @@ if (!$success) {
 		$location = elgg_get_plugins_path() . "groups/graphics/default{$size}.gif";
 	}
 	$contents = @file_get_contents($location);
+	header("Content-type: image/gif");
+} else {
+	header("Content-type: image/jpeg");
 }
 
-header("Content-type: image/jpeg");
 header('Expires: ' . gmdate('D, d M Y H:i:s \G\M\T', strtotime("+10 days")), true);
 header("Pragma: public");
 header("Cache-Control: public");
