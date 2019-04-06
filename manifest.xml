@@ -3,14 +3,14 @@
 	<name>Customsize Group Image</name>
 	<id>customsize_groupimage</id>
 	<author>iionly</author>
-	<version>2.3.4</version>
+	<version>3.0.0</version>
 	<category>misc</category>
-	<description>Displays the group profile image in the size of the original uploaded image in place of the large or master resized images (e.g. on group profile pages).</description>
+	<description>Displays the group profile image in master size (same size as original uploaded image if smaller than 10240px).</description>
 	<website>https://github.com/iionly</website>
 	<copyright>(C) iionly 2014</copyright>
 	<license>GNU Public License version 2</license>
 	<requires>
 		<type>elgg_release</type>
-		<version>2.3.0</version>
+		<version>3.0.0</version>
 	</requires>
 </plugin_manifest>

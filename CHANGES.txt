@@ -1,6 +1,18 @@
 Changelog
 =========
 
+3.0.0
+-----
+
+- Requires Elgg 3.0 at minimum,
+- Updated to work on Elgg 3.
+
+Before Elgg 3.0 the original uploaded image file of group profile images was kept - with Elgg 2.3 there was even the "original" image size introduced to make serving the uploaded image file easier. On Elgg 3 the original uploaded image files are no longer kept and the "original" image size no longer supported unfortunately. Therefore, the master thumbnail is now displayed instead of the large thumbnail (default by Elgg) and instead of the original uploaded image (as the Customsize Groupimage plugin did before)... The master size is now the same as the original image size as long as the uploaded image has a size smaller than 10240px in height and width (still the uploaded image goes through the resize process of Elgg and therefore losses some quality).
+
+If you have upgraded your site from a pre-Elgg 3.0 version the existing group image files should have been preserved by Elgg during the upgrade (though they were moved to their own folder in the data directory with group guid as folder name). The problem might be that you won't get the master thumbnail served as group profile image in the original size nonetheless. If this is the case on your site I'm afraid the only way is for you to re-upload all the group profile images again (as I said the previously uploaded files should still be available in the data directory) or you would have to rename the original uploaded file of the group profile image in the corresponding data directory to "master.jpg".
+
+Please don't blame me that this all sounds awefully annoying and complicated. I had asked the core devs to keep the original uploaded image files and not to remove the support of "original" thumbnail size - even made a Pull request - but it got declined.
+
 2.3.4
 -----
 
