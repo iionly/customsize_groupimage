@@ -31,6 +31,4 @@ $body = elgg_format_element('div', [
 	'class' => 'groups-profile-fields',
 ], elgg_view('groups/profile/fields', $vars));
 
-echo elgg_format_element('div', [
-	'class' => 'groups-profile',
-], $icon . $body);
+echo elgg_view_image_block($icon, $body, ['class' => 'groups-profile']);

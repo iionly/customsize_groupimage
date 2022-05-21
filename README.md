@@ -1,8 +1,8 @@
-Customsize Groupimage for Elgg 3.0 and newer Elgg 3.X
+Customsize Groupimage for Elgg 4.0 and newer Elgg 4.X
 =====================================================
 
-Latest Version: 3.0.0  
-Released: 2019-04-06  
+Latest Version: 4.0.0  
+Released: 2022-05-17  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
 Copyright: (c) iionly 2014
